@@ -1,0 +1,85 @@
+body{
+    margin: 0vh;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: 33% 65%;
+    height: 10vh;
+    width: 90vw;
+    margin: 0vh auto;
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    margin: 0vh 2vh;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: max-content;
+}
+
+.logo-text{
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size : 4vh;
+}
+
+.footer{
+    color: white;
+}
+
+.nav-text{
+  font-family: "Outfit", sans-serif;
+  font-weight: 586;
+  font-size: 2.5vh;
+}
+
+.nav-text-plus{
+    font-family: "Outfit", sans-serif;
+    font-weight: 486;
+    font-size: 4vh;
+}
+
+.addBlog{
+    align-self: center;
+    justify-content: center;
+    border-radius: 5vh;
+    border-style: solid;
+    width: 5vh;
+    height: 5vh;
+}
+
+.footer-container{
+    height: 30vh;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0vh;
+}
+
+.logo{
+    display: inline;
+    height: 7.5vh;
+    width: 7.5vh;
+    margin: 1vh;
+}
+
+h1{
+    display: inline;
+}
