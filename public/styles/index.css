@@ -1,5 +1,16 @@
+:root{
+    --background-color : #fff;
+    --text-color : #000;
+}
+
+.dark-mode{
+    --background-color : #000;
+    --text-color : #fff;
+}
+
 body{
     margin: 0vh;
+    background-color: var(--background-color);
 }
 .header-container{
     display: grid;
@@ -7,6 +18,7 @@ body{
     height: 10vh;
     width: 90vw;
     margin: 0vh auto;
+    margin-top: 1vh;
 }
 
 .logo-div{
@@ -38,31 +50,23 @@ a{
     font-weight: 400;
     font-style: normal;
     font-size : 4vh;
+    color: var(--text-color);
 }
 
 .footer{
-    color: white;
+    color: black;
 }
 
 .nav-text{
   font-family: "Outfit", sans-serif;
   font-weight: 586;
   font-size: 2.5vh;
-}
-
-.nav-text-plus{
-    font-family: "Outfit", sans-serif;
-    font-weight: 486;
-    font-size: 4vh;
+  color: var(--text-color);
 }
 
 .addBlog{
     align-self: center;
     justify-content: center;
-    border-radius: 5vh;
-    border-style: solid;
-    width: 5vh;
-    height: 5vh;
 }
 
 .footer-container{
@@ -82,4 +86,21 @@ a{
 
 h1{
     display: inline;
+}
+
+#number{
+    font-size: 3vh;
+    color: var(--text-color);
+}
+
+#icon{
+    display: flex;
+    font-size: 3vh;
+    border-radius: 6vh;
+    width: 6vh;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: var(--text-color);
 }
